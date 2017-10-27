@@ -1,2 +1,2 @@
-# react-annotated-paragraph
-React component that displays annotations on a text.
+# preact-annotated-paragraph
+Preact component that displays annotations on a text.
