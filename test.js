@@ -14,7 +14,7 @@ const getAriaLabel = str => {
 }
 
 
-test('Corrections and explanations layout', t => {
+test('Test classNames and tooltip (escaped)', t => {
   const viewMode = {
     config: {},
     check: result => isEqual(getClassNames(result).sort(), ["hint--bottom", "hint--medium", "hint--info", "hint--rounded", "annotation"].sort())
