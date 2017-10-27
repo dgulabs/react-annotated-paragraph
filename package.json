@@ -23,7 +23,8 @@
     "babel-preset-stage-2": "^6.24.1"
   },
   "dependencies": {
-    "es6-string-html-template": "^1.0.2"
+    "es6-string-html-template": "^1.0.2",
+    "hint.css": "^2.5.0"
   },
   "ava": {
     "files": [
