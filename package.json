@@ -1,5 +1,5 @@
 {
-  "name": "preact-annotated-paragraph",
+  "name": "react-annotated-paragraph",
   "version": "1.0.0",
   "description": "Preact component that displays annotations on a text.",
   "main": "",
@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dgulabs/preact-annotated-paragraph.git"
+    "url": "git+https://github.com/dgulabs/react-annotated-paragraph.git"
   },
   "author": "David Gallego (github.com/dgulabs)",
   "bugs": {
-    "url": "https://github.com/dgulabs/preact-annotated-paragraph/issues"
+    "url": "https://github.com/dgulabs/react-annotated-paragraph/issues"
   },
-  "homepage": "https://github.com/dgulabs/preact-annotated-paragraph#readme",
+  "homepage": "https://github.com/dgulabs/react-annotated-paragraph#readme",
   "devDependencies": {
     "ava": "^0.23.0",
     "babel-polyfill": "^6.26.0",
