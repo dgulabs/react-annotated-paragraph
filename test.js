@@ -2,7 +2,7 @@ import test from 'ava';
 import isEqual from 'lodash/isEqual'
 import assign from 'lodash/assign'
 
-import { annotateText } from './component/annotator'
+import { annotateText } from './annotator'
 
 
 const getClassNames = str => {

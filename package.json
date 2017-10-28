@@ -4,7 +4,7 @@
   "description": "Preact component that displays annotations on a text.",
   "main": "",
   "scripts": {
-    "test": "ava"
+    "test": "npm i --save-dev; ava"
   },
   "repository": {
     "type": "git",
