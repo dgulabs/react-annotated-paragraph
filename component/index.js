@@ -1,10 +1,10 @@
-import { Component, h } from 'preact'
+import React from 'react'
 import 'hint.css'
 
 import { annotateText } from './annotator'
 
 
-export default class Paragraph extends Component {
+export default class Paragraph extends React.Component {
 
   constructor(props) {
     super(props)
@@ -37,10 +37,10 @@ export default class Paragraph extends Component {
 
   isCentered = () => this.props.format && this.props.format.centered
 
-  render = (props, state) => {
+  render = () => {
     const {
       deleteParagraph
-    } = props;
+    } = this.props;
     
     return (
         <article className="media">
@@ -48,12 +48,12 @@ export default class Paragraph extends Component {
             <div className={ this.isCentered() ? "content has-text-centered" : "content" }>
               <div
                 ref={ input => { this.contents = input }}
-                dangerouslySetInnerHTML={{ __html: state.text }} />
+                dangerouslySetInnerHTML={{ __html: this.state.text }} />
             </div>
           </div>
           { deleteParagraph && (
             <div>
-            { !state.deleteBtnWarning ? (
+            { !this.state.deleteBtnWarning ? (
               <div className="media-right">
                 <button
                   className="delete delete-paragraph"
