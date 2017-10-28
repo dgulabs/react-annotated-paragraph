@@ -12,7 +12,7 @@ react-annotated-paragraph depends on:
 - [es6-string-html-template](https://www.npmjs.com/package/es6-string-html-template), so the text in the tooltips is escaped.
 - [hint.css](https://www.npmjs.com/package/hint.css), for the tooltips on the annotated text.
 
-## Simple usage
+## Usage
 Import the component:
 ```
 import Paragraph from 'react-annotated-paragraph'
