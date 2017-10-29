@@ -11,6 +11,7 @@ npm install --save react-annotated-paragraph
 react-annotated-paragraph depends on:
 - [es6-string-html-template](https://www.npmjs.com/package/es6-string-html-template), so the text in the tooltips is escaped.
 - [hint.css](https://www.npmjs.com/package/hint.css), for the tooltips on the annotated text.
+- [react](https://www.npmjs.com/package/react).
 
 ## Usage
 Import the component:
@@ -54,6 +55,10 @@ module: {
   rules: [
     ...
     {
+      test: /\.css$/,
+      use: ['style-loader', 'css-loader']
+    },
+    {
       test: /\.(js|jsx)$/,
       exclude: /node_modules\/(?![react\-annotated\-paragraph])/,
       use: ['babel-loader']
@@ -67,4 +72,11 @@ This configuration would use babel-loader for all our Javascript sources, includ
 You can test the annotator running:
 ```shell
 npm test
+```
+
+## Demo
+Inside demo/, run a simple usage example, served by webpack-dev-server:
+```
+npm install
+npm run server
 ```
