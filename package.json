@@ -1,10 +1,10 @@
 {
   "name": "react-annotated-paragraph",
   "version": "1.0.0",
-  "description": "Preact component that displays annotations on a text.",
+  "description": "React component that displays annotations on a text.",
   "main": "",
   "scripts": {
-    "test": "npm i --save-dev; ava"
+    "test": "ava"
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,8 @@
   },
   "dependencies": {
     "es6-string-html-template": "^1.0.2",
-    "hint.css": "^2.5.0"
+    "hint.css": "^2.5.0",
+    "react": "^16.0.0"
   },
   "ava": {
     "files": [
