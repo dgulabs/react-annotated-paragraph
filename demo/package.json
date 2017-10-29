@@ -1,8 +1,4 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
-  "main": "",
   "scripts": {
     "server": "webpack-dev-server"
   },
