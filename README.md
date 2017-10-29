@@ -1,7 +1,5 @@
 # react-annotated-paragraph
 React component that displays annotations on a text.
-
-## Feature
 ![react-annotated-paragraph](https://github.com/dgulabs/react-annotated-paragraph/blob/master/react-annotated-paragraph.gif)
 
 ## Installation
