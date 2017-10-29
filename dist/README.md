@@ -3,14 +3,8 @@ React component that displays annotations on a text.
 
 ## Installation
 You can install react-annotated-paragraph from npm:
-```shell
-npm install --save react-annotated-paragraph
 ```
-
-## Compilation
-To generate the transpiled and minified version of the component, already under dist/, run:
-```shell
-npm run build:dist
+npm install --save react-annotated-paragraph
 ```
 
 ## Dependencies
@@ -51,16 +45,5 @@ const mySimpleRenderer = (text, annotation) => {
 }
 ```
 
-## Test
-You can test the annotator running:
-```shell
-npm test
-```
-
-## Demo
-Run a simple usage example, served by webpack-dev-server:
-```shell
-cd demo/
-npm install
-npm run server
-```
+## More
+Please see the project on Github to play a demo that uses the component.

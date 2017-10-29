@@ -1,0 +1,20 @@
+{
+  "name": "react-annotated-paragraph",
+  "version": "1.0.2",
+  "description": "React component that displays annotations on a text.",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgulabs/react-annotated-paragraph.git"
+  },
+  "author": "David Gallego (github.com/dgulabs)",
+  "bugs": {
+    "url": "https://github.com/dgulabs/react-annotated-paragraph/issues"
+  },
+  "homepage": "https://github.com/dgulabs/react-annotated-paragraph#readme",
+  "dependencies": {
+    "es6-string-html-template": "^1.0.2",
+    "hint.css": "^2.5.0",
+    "react": "^16.0.0"
+  }
+}

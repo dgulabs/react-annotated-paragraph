@@ -1,9 +1,9 @@
 {
   "name": "react-annotated-paragraph",
-  "version": "1.0.2",
+  "version": "",
   "description": "React component that displays annotations on a text.",
-  "main": "",
   "scripts": {
+    "build:dist": "react-build-dist --bundle-name index.js --stage-0",
     "test": "ava"
   },
   "repository": {
@@ -20,7 +20,8 @@
     "babel-polyfill": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-2": "^6.24.1"
+    "babel-preset-stage-2": "^6.24.1",
+    "react-build-dist": "0.0.8"
   },
   "dependencies": {
     "es6-string-html-template": "^1.0.2",
@@ -40,5 +41,12 @@
       "babel-polyfill"
     ],
     "babel": "inherit"
+  },
+  "react-build-dist": {
+    "externals": {
+      "es6-string-html-template": "es6-string-html-template",
+      "react": "react",
+      "hint.css": "hint.css"
+    }
   }
 }

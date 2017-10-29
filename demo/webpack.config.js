@@ -17,7 +17,7 @@ module.exports = {
       },
       {
         test: /\.(js|jsx)$/,
-        exclude: /node_modules\/(?![react\-annotated\-paragraph])/,
+        exclude: /node_modules/,
         use: ['babel-loader']
       }
     ],
