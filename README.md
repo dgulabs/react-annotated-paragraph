@@ -76,7 +76,7 @@ npm test
 
 ## Demo
 Run a simple usage example, served by webpack-dev-server:
-```
+```shell
 cd demo/
 npm install
 npm run server
