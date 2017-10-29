@@ -21,7 +21,7 @@
     "webpack-dev-server": "^2.9.3"
   },
   "dependencies": {
-    "react-annotated-paragraph": "file:///home/ubuntu/dev/github/react-annotated-paragraph/dist/react-annotated-paragraph-1.0.2.tgz",
+    "react-annotated-paragraph": "*",
     "react-dom": "^16.0.0"
   }
 }
