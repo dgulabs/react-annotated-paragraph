@@ -91,78 +91,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	    };
 
 	    _this.render = function () {
-	      var deleteParagraph = _this.props.deleteParagraph;
-
-
-	      return _react2.default.createElement(
-	        'article',
-	        { className: 'media' },
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'media-content' },
-	          _react2.default.createElement(
-	            'div',
-	            { className: _this.isCentered() ? "content has-text-centered" : "content" },
-	            _react2.default.createElement('div', {
-	              ref: function ref(input) {
-	                _this.contents = input;
-	              },
-	              dangerouslySetInnerHTML: { __html: _this.state.text } })
-	          )
-	        ),
-	        deleteParagraph && _react2.default.createElement(
-	          'div',
-	          null,
-	          !_this.state.deleteBtnWarning ? _react2.default.createElement(
-	            'div',
-	            { className: 'media-right' },
-	            _react2.default.createElement('button', {
-	              className: 'delete delete-paragraph',
-	              onClick: function onClick() {
-	                return _this.setState({ deleteBtnWarning: true });
-	              } })
-	          ) : _react2.default.createElement(
-	            'div',
-	            { className: 'field is-grouped' },
-	            _react2.default.createElement(
-	              'div',
-	              { className: 'control' },
-	              _react2.default.createElement(
-	                'button',
-	                {
-	                  className: 'button is-link delete-paragraph-confirm',
-	                  onClick: function onClick() {
-	                    return deleteParagraph();
-	                  } },
-	                'Yes'
-	              )
-	            ),
-	            _react2.default.createElement(
-	              'div',
-	              { className: 'control' },
-	              _react2.default.createElement(
-	                'button',
-	                {
-	                  className: 'button is-link delete-paragraph-cancel',
-	                  onClick: function onClick() {
-	                    return _this.setState({ deleteBtnWarning: false });
-	                  } },
-	                'No'
-	              )
-	            )
-	          )
-	        )
-	      );
+	      return _react2.default.createElement('div', {
+	        ref: function ref(input) {
+	          _this.contents = input;
+	        },
+	        dangerouslySetInnerHTML: { __html: _this.state.text } });
 	    };
 
-	    if (_this.props.deleteParagraph) {
-	      _this.state = {
-	        deleteBtnWarning: false,
-	        text: _this.props.paragraph.text
-	      };
-	    } else {
-	      _this.state = { text: _this.props.paragraph.text };
-	    }
+	    _this.state = {
+	      text: _this.props.paragraph.text
+	    };
 	    return _this;
 	  }
 
