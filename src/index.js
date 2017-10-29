@@ -29,8 +29,6 @@ export default class Paragraph extends React.Component {
     })
   }
 
-  isCentered = () => this.props.format && this.props.format.centered
-
   render = () => {
     return (
       <div
