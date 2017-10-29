@@ -9,9 +9,9 @@ npm install --save react-annotated-paragraph
 
 ## Dependencies
 react-annotated-paragraph depends on:
-- [es6-string-html-template](https://www.npmjs.com/package/es6-string-html-template), so the text in the tooltips is escaped.
-- [hint.css](https://www.npmjs.com/package/hint.css), for the tooltips on the annotated text.
-- [react](https://www.npmjs.com/package/react).
+- [react](https://www.npmjs.com/package/react)
+- [hint.css](https://www.npmjs.com/package/hint.css) (tooltips library)
+- [es6-string-html-template](https://www.npmjs.com/package/es6-string-html-template) (text escaping inside the tooltips)
 
 ## Usage
 Import the component:
@@ -75,8 +75,9 @@ npm test
 ```
 
 ## Demo
-Inside demo/, run a simple usage example, served by webpack-dev-server:
+Run a simple usage example, served by webpack-dev-server:
 ```
+cd demo/
 npm install
 npm run server
 ```
